@@ -140,19 +140,48 @@ console.log(obj);
 // console.log(person.id);
 
 
-// function Person(id)
-// {
-//   let id1=id;
-//   this.name='hi';
-//   this.setId=function(id)
-//   {
-//   id1=id;
-//   }
-//   this.getId=function()
-//   {
-//     return id1;
-//   }
-// }
-// const pers=new Person('10');
-// pers.setId(2);
-// console.log(pers.getId());
+//  let person = prompt("please Enter your name");
+//         let M1 = prompt("Enter mark1");
+//         while (isNaN(M1) === true) {
+//             alert("Enter valid value");
+//             M1 = prompt("Enter mark1");
+//         }
+//         let M2 = prompt("Enter mark2");
+//         while (isNaN(M2) === true) {
+//             alert("Enter valid value");
+//              M2 = prompt("Enter mark2");
+//         }
+//         let M3 = prompt("Enter mark3");
+//         while (isNaN(M3) === true) {
+//             alert("Enter valid value");
+//              M3 = prompt("Enter mark3");
+//         }
+//         let m1 = parseInt(M1);
+//         let m2 = parseInt(M2);
+//         let m3 = parseInt(M3);
+//         const obj =
+//             {
+//                 name: person,
+//                 mark1: m1,
+//                 mark2: m2,
+//                 mark3: m3
+//             }
+//         console.log(obj);
+//         const obj2 =
+//             {
+//                 name: person,
+//                 Total: (m1 + m2 + m3),
+//             }
+//         console.log(obj2);
+//         const obj3 =
+//             {
+//                 avg: (m1 + m2 + m3) / 3
+//             }
+//         console.log(obj3);
+//         const obj4 =
+//             {
+//                 name: obj.name,
+//                 total: obj2.Total,
+//                 Avg: obj3.avg
+//             }
+//         console.log(obj4);
