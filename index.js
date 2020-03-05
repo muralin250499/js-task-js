@@ -140,19 +140,19 @@ console.log(obj);
 // console.log(person.id);
 
 
-function Person(id)
-{
-  let id1=id;
-  this.name='hi';
-  this.setId=function(id)
-  {
-  id1=id;
-  }
-  this.getId=function()
-  {
-    return id1;
-  }
-}
-const pers=new Person('10');
-pers.setId(2);
-console.log(pers.getId());
+// function Person(id)
+// {
+//   let id1=id;
+//   this.name='hi';
+//   this.setId=function(id)
+//   {
+//   id1=id;
+//   }
+//   this.getId=function()
+//   {
+//     return id1;
+//   }
+// }
+// const pers=new Person('10');
+// pers.setId(2);
+// console.log(pers.getId());
